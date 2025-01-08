@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {NavbarMenu} from '../../mockData/Data'
 import {CiSearch} from 'react-icons/ci';
 import {FaDumbbell} from 'react-icons/fa';
@@ -15,7 +15,7 @@ const ResponsiveMenu = ({open}) =>{
                         initial= {{opacity: 0, y: -100}}
                         animate = {{opacity: 1, y: 0}}
                         exit= {{opacity: 0, y: -100}}
-                        transition= {{duration: 0.3}}
+                        transition= {{duration: 0.3,}}
                         className='absolute top-20 left-0 w-full h-screen z-20'
                      >
                         <div className='text-xl font-semibold uppercase bg-red-500 text-white py-10 m-6 rounded-3xl'>
